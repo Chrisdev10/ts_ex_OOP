@@ -1,0 +1,81 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.data = void 0;
+exports.data = [
+    {
+        lastName: 'Delbeke',
+        firstName: 'Christophe',
+        sexe: 'M',
+        birdthDate: new Date(1992, 10, 1),
+        phoneNumber: '0496794178',
+        email: 'delbeke.christophe@hotmail.com',
+        address: {
+            street: 'rue des chenes',
+            houseNumber: 1,
+            postCode: 4444,
+            city: 'Aix',
+            country: 'BE',
+        },
+        nationalRegister: '12.23.43-432.12',
+    },
+    {
+        lastName: 'Delbeke',
+        firstName: 'Christophe',
+        sexe: 'M',
+        birdthDate: new Date(1992, 10, 1),
+        phoneNumber: 496794178,
+        address: {
+            street: 'rue des chenes',
+            houseNumber: 1,
+            postCode: 4444,
+            city: 'Aix',
+            country: 'BE',
+        },
+        nationalRegister: '12.23.43-432.12',
+    },
+    {
+        lastName: 'Delbeke',
+        firstName: 'Christophe',
+        sexe: 'M',
+        birdthDate: new Date(1992, 10, 1),
+        phoneNumber: 496794178,
+        address: {
+            street: 'rue des chenes',
+            houseNumber: 1,
+            postCode: 4444,
+            city: 'Aix',
+            country: 'BE',
+        },
+        nationalRegister: '12.23.43-432.12',
+    },
+    {
+        lastName: 'Delbeke',
+        firstName: 'Christophe',
+        sexe: 'M',
+        birdthDate: new Date(1992, 10, 1),
+        phoneNumber: 496794178,
+        address: {
+            street: 'rue des chenes',
+            houseNumber: 1,
+            postCode: 4444,
+            city: 'Aix',
+            country: 'BE',
+        },
+        nationalRegister: '12.23.43-432.12',
+    },
+    {
+        lastName: 'Delbeke',
+        firstName: 'Christophe',
+        sexe: 'M',
+        birdthDate: new Date(1992, 10, 1),
+        phoneNumber: 496794178,
+        address: {
+            street: 'rue des chenes',
+            houseNumber: 1,
+            postCode: 4444,
+            city: 'Aix',
+            country: 'BE',
+        },
+        nationalRegister: '12.23.43-432.12',
+    },
+];
