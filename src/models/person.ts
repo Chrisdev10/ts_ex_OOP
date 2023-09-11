@@ -1,6 +1,7 @@
 export type Address = {
   street: string;
   houseNumber: number | string;
+  floor?: number;
   postCode: number;
   city: string;
   country: string;
@@ -31,5 +32,8 @@ export abstract class Person {
   }
   public speak() {
     console.log("I'm speaking");
+  }
+  toString() {
+    return `${this._info.lastName} ${this._info.firstName}`;
   }
 }

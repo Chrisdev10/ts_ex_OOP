@@ -17,5 +17,8 @@ class Person {
     speak() {
         console.log("I'm speaking");
     }
+    toString() {
+        return `${this._info.lastName} ${this._info.firstName}`;
+    }
 }
 exports.Person = Person;
